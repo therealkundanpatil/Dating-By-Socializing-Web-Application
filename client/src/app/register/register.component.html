@@ -16,13 +16,13 @@
       type="password"
       class="form-control"
       name="password"
-      [(ngModel)]="model.passord"
+      [(ngModel)]="model.password"
       placeholder="Password"
     />
   </div>
   <div class="form-group text-center">
     <button class="btn btn-success mr-2" type="submit">Register</button>
-    <button class="btn btn-default mr-2" type="button" (click)="cancel()">
+    <button class="btn btn-default mr-2" (click)="cancel()" type="button">
       Cancel
     </button>
   </div>
