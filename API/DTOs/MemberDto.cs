@@ -7,7 +7,7 @@ namespace API.DTOs
     {
         public int Id { get; set; }  
 
-        public string UserName { get; set; } 
+        public string Username { get; set; } 
 
         public string PhotoUrl { get; set; }
 
@@ -25,7 +25,7 @@ namespace API.DTOs
 
         public string LookingFor { get; set; }
 
-        public string Interest { get; set; }
+        public string Interests { get; set; }
 
         public string  City { get; set; }
 
